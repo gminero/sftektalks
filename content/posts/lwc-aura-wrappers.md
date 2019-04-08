@@ -297,4 +297,4 @@ work with the data in the component, since we did declare a List (Array) attribu
 
 ```
 
-[!Firing and receiving the event](http://recordit.co/j5kdCSi7UF)
+![Firing and receiving the event](http://recordit.co/j5kdCSi7UF)
