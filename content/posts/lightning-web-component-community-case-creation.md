@@ -63,7 +63,6 @@ the following command will create a lightning web component in the appropriate d
 sfdx force:lightning:component:create -n lwcContactSupport --type lwc -d force-app/main/default/lwc
 ```
 
-![folder structure](/img/lwcContactSupport.png)
 {{< figure src="/img/lwcContactSupport.png" title="image title" >}}
 
 ---
@@ -141,9 +140,8 @@ In Lightning Communities, the only actionName supported at the moment is 'view'.
 > as indicated in [PageReference Types](https://developer.salesforce.com/docs/component-library/documentation/lwc/lwc.use_page_reference_definitions)
 
 ---
-![form view](/img/lwcFormView.png)
-<img src="/img/lwcFormView.png" title="form view" alt="form view">
-<img src="/img/lwcCaseConfirm.png" title="case confirm" alt="case confirm">
+{{< figure src="/img/lwcFormView.png" title="form view" >}}
+{{< figure src="/img/lwcCaseConfirm.png" title="confirm view" >}}
 ![Sample Case Creation](http://g.recordit.co/AqIhWL5cX3.gif)
 
 ---
