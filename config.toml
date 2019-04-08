@@ -6,14 +6,14 @@ theme = "ananke"
 
 
 [params]
-    favicon = "/img/cloud_wrench.png"
+    favicon = "img/cloud_wrench.png"
     author = "Guillaume Minero" 
     description = "Guillaume Minero's personal blog" 
     keywords = "blog,developer,personal,salesforce"
     info = "nothing whatsoever"
     footercontent = "Because, why not?" 
     background_color_class = "bg-black"
-    featured_image = "/img/cloud_under.png"
+    featured_image = "static/img/cloud_under.png"
     recent_posts_number = 2
     hideCredits = false
     hideCopyright = false
