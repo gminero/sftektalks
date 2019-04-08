@@ -1,6 +1,6 @@
 ---
 title: "Free AI Powered Search for Lightning Communities"
-date: 2017-20-06T16:00:00-04:00
+date: 2017-06-20T16:00:00-04:00
 draft: true
 ---
 
@@ -8,7 +8,7 @@ draft: true
 
 ---
 
-{{ < youtube zGOwurDtB40 > }}
+{{% youtube "zGOwurDtB40" %}} 
 
 During this speaker session I introduced Coveo's Free offering which is available since 2017. 
 
