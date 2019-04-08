@@ -63,7 +63,7 @@ the following command will create a lightning web component in the appropriate d
 sfdx force:lightning:component:create -n lwcContactSupport --type lwc -d force-app/main/default/lwc
 ```
 
-{{< figure src="/img/lwcContactSupport.png" title="image title" >}}
+{{< figure src="/img/lwcContactSupport.png" title="contact support" >}}
 
 ---
 ## Component Markup
