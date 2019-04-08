@@ -3,13 +3,18 @@ languageCode = "en-us"
 title = "Salesforce Tek Talks"
 theme = "ananke"
 
+
+
 [params]
+    favicon = "/static/img/cloudy.jpg"
     author = "Guillaume Minero" 
     description = "Guillaume Minero's personal blog" 
     keywords = "blog,developer,personal"
     info = "noe whatsoever"
     footercontent = "Because, why not?" 
-
+    background_color_class = "bg-black"
+    featured_image = "/static/img/cloud_under.png"
+    recent_posts_number = 2
     hideCredits = false
     hideCopyright = false
 
