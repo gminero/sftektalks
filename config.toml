@@ -2,3 +2,40 @@ baseURL = "https://gminero.github.io/"
 languageCode = "en-us"
 title = "Salesforce Tek Talks"
 theme = "ananke"
+
+[params]
+    author = "Guillaume Minero" 
+    description = "Guillaume Minero's personal blog" 
+    keywords = "blog,developer,personal"
+    info = "noe whatsoever"
+    footercontent = "Because, why not?" 
+
+    hideCredits = false
+    hideCopyright = false
+
+    rtl = false
+
+    # Custom CSS
+    custom_css = []
+
+[[params.social]]
+    name = "Github"
+    icon = "fab fa-github fa-2x"
+    weight = 1
+    url = "https://github.com/gminero" 
+
+[[params.social]]
+    name = "Twitter"
+    icon = "fab fa-twitter fa-2x"
+    weight = 2
+    url = "https://twitter.com/gminero_coveo"
+[[params.social]]
+    name = "LinkedIn"
+    icon = "fab fa-linkedin fa-2x"
+    weight = 3
+    url = "https://www.linkedin.com/in/guillaume-minero-101496110/"
+
+[[menu.main]]
+    name = "Blog"
+    weight = 1
+    url  = "/posts/"
