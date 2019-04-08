@@ -64,7 +64,7 @@ sfdx force:lightning:component:create -n lwcContactSupport --type lwc -d force-a
 ```
 
 ![folder structure](/img/lwcContactSupport.png)
-{{< figure src="../../resources/_gen/images/lwcContactSupport.png" title="image title" >}}
+{{< figure src="/img/lwcContactSupport.png" title="image title" >}}
 
 ---
 ## Component Markup
