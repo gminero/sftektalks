@@ -17,7 +17,7 @@ theme = "ananke"
     recent_posts_number = 2
     hideCredits = false
     hideCopyright = false
-    avatar = "/img/me.jpg"
+    avatar = "img/me.jpg"
     rtl = false
 
     # Custom CSS
