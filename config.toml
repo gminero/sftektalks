@@ -40,7 +40,18 @@ theme = "ananke"
     weight = 3
     url = "https://www.linkedin.com/in/guillaume-minero-101496110/"
 
-[[menu.main]]
-    name = "Blog"
-    weight = 1
-    url  = "/posts/"
+[menu]
+    [[menu.main]]
+        name = "Blog"
+        weight = 1
+        url  = "/posts/"
+
+    [[menu.main]]
+        name = "About Me"
+        weight = 2
+        url  = "/about/about-me/"
+    
+    [[menu.main]]
+        name = "Speaker Sessions"
+        weight = 3
+        url  = "/speaker-sessions/"
