@@ -141,7 +141,7 @@ In Lightning Communities, the only actionName supported at the moment is 'view'.
 
 ---
 {{< figure src="/img/lwcFormView.png" title="form view" >}}
-{{< figure src="/img/lwcCaseConfirm.png" title="confirm view" >}}
+{{< figure src="/img/lwcCaseConfirm.png" title="confirmed" >}}
 ![Sample Case Creation](http://g.recordit.co/AqIhWL5cX3.gif)
 
 ---
