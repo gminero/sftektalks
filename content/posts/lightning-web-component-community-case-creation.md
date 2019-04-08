@@ -140,8 +140,11 @@ In Lightning Communities, the only actionName supported at the moment is 'view'.
 > as indicated in [PageReference Types](https://developer.salesforce.com/docs/component-library/documentation/lwc/lwc.use_page_reference_definitions)
 
 ---
+
 {{< figure src="/img/lwcFormView.png" title="form view" >}}
+
 {{< figure src="/img/lwcCaseConfirm.png" title="confirmed" >}}
+
 ![Sample Case Creation](http://g.recordit.co/AqIhWL5cX3.gif)
 
 ---
