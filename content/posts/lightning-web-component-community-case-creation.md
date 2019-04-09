@@ -2,16 +2,16 @@
 title: "Lightning Web Component Community Case Creation"
 date: 2019-04-07T13:52:14-04:00
 draft: false
-description : "Learn to create alwc a case creation form with redirection"
+description : "Learn to create a lwc a case creation form with redirection"
 slug : "lightning-web-component-community-case-creation"
 tags : ["lwc", "case deflection", "lightning communities"]
 ---
 
-In this post we will create a case creation form, using the [lightning-record-edit-form](https://developer.salesforce.com/docs/component-library/bundle/lightning-record-edit-form/documentation) component alongise proper redirection to the record page once the button has been submitted.
+In this post we will create a case creation form, using the [lightning-record-edit-form](https://developer.salesforce.com/docs/component-library/bundle/lightning-record-edit-form/documentation) component alongside proper redirection to the record page once the button has been submitted.
 
 ## Getting Started
 
-You will need to get yourself setup with [Salesforce-DX](https://trailhead.salesforce.com/en/content/learn/trails/sfdx_get_started), if you haven't had the chance to do so, this is a good time to get your environemnt setup since we will use it to deploy our LWC to a scratch org for testing.
+You will need to get yourself setup with [Salesforce-DX](https://trailhead.salesforce.com/en/content/learn/trails/sfdx_get_started), if you haven't had the chance to do so, this is a good time to get your environment setup since we will use it to deploy our LWC to a scratch org for testing.
 
 ## Steps To do 
 
@@ -52,13 +52,13 @@ run
 sfdx force:org:create -f project-scratch-def.json -a myCaseCreationTest
 ```
 
-You can either create a lightinng community or push the data from your scratch org if you already have one setup in a scratch org. If you are unfamilair with the process, you can refer to [Create a Community](https://trailhead.salesforce.com/en/content/learn/projects/communities_theme_layout/create_community_theme).
+You can either create a lightning community or push the data from your scratch org if you already have one setup in a scratch org. If you are unfamiliar with the process, you can refer to [Create a Community](https://trailhead.salesforce.com/en/content/learn/projects/communities_theme_layout/create_community_theme).
 
 ---
 
 ## Create your LWC
 
-> [lightning commads](https://developer.salesforce.com/docs/atlas.en-us.sfdx_cli_reference.meta/sfdx_cli_reference/cli_reference_force_lightning.htm)
+> [lightning commands](https://developer.salesforce.com/docs/atlas.en-us.sfdx_cli_reference.meta/sfdx_cli_reference/cli_reference_force_lightning.htm)
 
 the following command will create a lightning web component in the appropriate directory:
 
@@ -102,7 +102,7 @@ sfdx force:lightning:component:create -n lwcContactSupport --type lwc -d force-a
 
 ```
 				
-Notice the onsuccess event handler we added to the component. We will use it to trigger the navigation once the case has successfuly been created via the [User Interface API](https://developer.salesforce.com/docs/atlas.en-us.uiapi.meta/uiapi/ui_api_get_started_supported_objects.htm).
+Notice the onsuccess event handler we added to the component. We will use it to trigger the navigation once the case has successfully been created via the [User Interface API](https://developer.salesforce.com/docs/atlas.en-us.uiapi.meta/uiapi/ui_api_get_started_supported_objects.htm).
 
 ---
 

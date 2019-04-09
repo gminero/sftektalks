@@ -11,7 +11,7 @@ In this post, we will create an Aura wrapper component around a LWC that fires a
 Wrapping your LWC will help you communicate with other aura components that cannot or have not been migrated to LWC.
 ## Getting Started
 
-You will need to get yourself setup with [Salesforce-DX](https://trailhead.salesforce.com/en/content/learn/trails/sfdx_get_started), if you haven't had the chance to do so, this is a good time to get your environemnt setup since we will use it to deploy our LWC to a scratch org for testing.
+You will need to get yourself setup with [Salesforce-DX](https://trailhead.salesforce.com/en/content/learn/trails/sfdx_get_started), if you haven't had the chance to do so, this is a good time to get your environment setup since we will use it to deploy our LWC to a scratch org for testing.
 
 ## Steps To do 
 
@@ -66,7 +66,7 @@ I have additionaly setup the following github repository if you would like to pu
 
 ## Create your LWC
 
-> [lightning commads](https://developer.salesforce.com/docs/atlas.en-us.sfdx_cli_reference.meta/sfdx_cli_reference/cli_reference_force_lightning.htm)
+> [lightning commands](https://developer.salesforce.com/docs/atlas.en-us.sfdx_cli_reference.meta/sfdx_cli_reference/cli_reference_force_lightning.htm)
 
 the following command will create a lightning web component in the appropriate directory:
 
@@ -157,7 +157,7 @@ export default class ContactSupportForm extends LightningElement {
 ## Create your Aura Wrapper
 
 We will create a lightning aura component that will wrap our lwc. The only purpose of the aura wrapper component is to fire application
-events for our other Aura compontent(s) to handle.
+events for our other Aura component(s) to handle.
 
 
 ## Aura Component Markup
@@ -226,7 +226,7 @@ In the controller, we fire the `caseCreateFieldChange` selfService event for the
 ## Create your Aura Listener
 
 The Aura Listener component is merely here for educational purposes, normally, you would actually have some sort 
-of component that hadnles the event to trigger some kind of action. Here we will simply use the received evevnt parameters and display
+of component that handles the event to trigger some kind of action. Here we will simply use the received event parameters and display
 them in a box.
 
 ## Listener Component Markup
