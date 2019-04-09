@@ -1,7 +1,10 @@
 ---
 title: "Case Deflection from A-Z"
 date: 2018-06-15T16:40:00-04:00
-draft: true
+draft: false
+description : "Learn the ins and outs of a custom case deflection form in lightning communities."
+slug : "Free-AI-Powered-search-for-Lightning-Communities"
+tags : ["case deflection", "lighting communities"]
 ---
 
 ## French Touch Dreamin 2019

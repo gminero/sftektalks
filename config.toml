@@ -2,7 +2,7 @@ baseURL = "https://gminero.github.io"
 languageCode = "en-us"
 title = "Salesforce Tek Talks"
 theme = "ananke"
-
+features = ["posts", "lightning"]
 
 [params]
     favicon = "img/cloud_wrench.png"
@@ -54,3 +54,14 @@ theme = "ananke"
         name = "Speaker Sessions"
         weight = 3
         url  = "/speaker-sessions/"
+
+[related]
+  threshold = 80
+  includeNewer = false
+  toLower = false
+  [[related.indices]]
+    name = "posts"
+    weight= 100
+  [[related.indices]]
+    name = "date"
+    weight = 10

@@ -1,10 +1,13 @@
 ---
 title: "Lwc Aura Wrappers"
 date: 2019-04-08T10:52:13-04:00
-draft: true
+draft: false
+description : "Learn to create an Aura wrapper component around a LWC that fires an APP event."
+slug : "lwc-aura-wrappers"
+tags : ["lwc", "events", "aura wrapper"]
 ---
 
-In this post, we will create an Aura wrapper component around or LWC that fires an APP event to an external Aura component.
+In this post, we will create an Aura wrapper component around a LWC that fires an APP event to an external Aura component.
 Wrapping your LWC will help you communicate with other aura components that cannot or have not been migrated to LWC.
 ## Getting Started
 

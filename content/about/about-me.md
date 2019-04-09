@@ -1,7 +1,7 @@
 ---
 title: "About Me"
 date: 2019-04-08T15:52:41-04:00
-draft: true
+draft: false
 ---
 
 ![me](https://www.gravatar.com/avatar/1f982890686afc07a694c729b3bc1773?size=1000)

@@ -1,7 +1,10 @@
 ---
 title: "Lightning Web Component Community Case Creation"
 date: 2019-04-07T13:52:14-04:00
-draft: true
+draft: false
+description : "Learn to create alwc a case creation form with redirection"
+slug : "lightning-web-component-community-case-creation"
+tags : ["lwc", "case deflection", "lightning communities"]
 ---
 
 In this post we will create a case creation form, using the [lightning-record-edit-form](https://developer.salesforce.com/docs/component-library/bundle/lightning-record-edit-form/documentation) component alongise proper redirection to the record page once the button has been submitted.

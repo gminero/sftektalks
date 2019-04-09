@@ -1,7 +1,10 @@
 ---
 title: "Free AI Powered Search for Lightning Communities"
 date: 2017-06-20T16:00:00-04:00
-draft: true
+draft: false
+description : "Learn how to integrate free AI powered search in lightning communities"
+slug : "Free-AI-Powered-search-for-Lightning-Communities"
+tags : ["free", "search", "coveo"]
 ---
 
 ## Dream Olé 2017
