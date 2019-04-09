@@ -3,7 +3,7 @@ title: "Case Deflection from A-Z"
 date: 2018-06-15T16:40:00-04:00
 draft: false
 description : "Learn the ins and outs of a custom case deflection form in lightning communities."
-slug : "Case-Deflection-From-A-Z"
+slug : "case-deflection-from-a-z"
 tags : ["case deflection", "lighting communities"]
 ---
 
