@@ -1,8 +1,7 @@
-baseURL = "https://gminero.github.io/"
+baseURL = "https://gminero.github.io"
 languageCode = "en-us"
 title = "Salesforce Tek Talks"
 theme = "ananke"
-
 
 
 [params]
