@@ -33,10 +33,14 @@ Where I work, A colleague had told me about [Jekyll](https://jekyllrb.com/) and 
 
 This had to be done, 😅 .  
 
-I had started experimenting with [GO](https://golang.org/) ![Gopher](https://emojis.slackmojis.com/emojis/images/1454546974/291/golang.png?1454546974) and wanted to do something in [markdown](https://en.wikipedia.org/wiki/Markdown). Markdown gave me the flexibility of using a markup language to avoid any sort of GUI and quickly write whatever came to my mind and using [GIT](https://github.com), simply push whatever I did locally to a repository and whenI would be satisfied with what I saw, deploy to another repository which would actually hsot my search page.
+I had started experimenting with [GO](https://golang.org/)
+
+and wanted to do something in [markdown](https://en.wikipedia.org/wiki/Markdown). Markdown gave me the flexibility of using a markup language to avoid any sort of GUI and quickly write whatever came to my mind and using [GIT](https://github.com), simply push whatever I did locally to a repository and whenI would be satisfied with what I saw, deploy to another repository which would actually hsot my search page.
 
 As a Framework, I chose [Hugo](https://gohugo.io/), which is built on top of Golang. It is a static site generator which has been around since 2013. Setting myself up took literally 20-30 minutes + getting familiar with the templating and static generator functionality. Then I had to get familair with hosting my site on Github, so that took me another 15 minutes.
 
 I have to say, I am very satisfied with the result, and would definitely recommend this approach for building a static site.
 
 One of the disadvantages I saw with heroku was the build time && the fact taht the free Tier puts the amchien to sleep after 30 minutes of activity, but overall it is not a downer for more complex projects and testing. Heroku itself has a greater learning curve, but in the long run is definitely usefull.
+
+![Gopher](https://raw.githubusercontent.com/golang-samples/gopher-vector/master/gopher.png)
