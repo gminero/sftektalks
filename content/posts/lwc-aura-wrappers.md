@@ -9,6 +9,7 @@ tags : ["lwc", "events", "aura wrapper"]
 
 In this post, we will create an Aura wrapper component around a LWC that fires an APP event to an external Aura component.
 Wrapping your LWC will help you communicate with other aura components that cannot or have not been migrated to LWC.
+
 ## Getting Started
 
 You will need to get yourself setup with [Salesforce-DX](https://trailhead.salesforce.com/en/content/learn/trails/sfdx_get_started), if you haven't had the chance to do so, this is a good time to get your environment setup since we will use it to deploy our LWC to a scratch org for testing.
